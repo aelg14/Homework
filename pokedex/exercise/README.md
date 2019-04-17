@@ -1,5 +1,4 @@
 # Construye tu propia Pokedex
----
 
 En este ejercicio tendrás que construir una pokedex como la que se muestra en la imagen.
 Para ello, tienes disponible una pequeña plantilla en html sobre como debería ser la estructura de cada una de las tarjetas de los Pokemon.
