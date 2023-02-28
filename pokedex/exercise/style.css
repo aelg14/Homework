@@ -1,1 +1,121 @@
 /* Empieza aquí a estilar tus tarjetas pokemon */
+body {
+    background-image: url("../media/container_bg.png");
+    padding: 50px;
+}
+
+header {
+  text-align: center;
+
+}
+
+header img {
+  max-width: 50%;
+  vertical-align: middle;
+}
+
+.pokeball {
+  width: 80px;
+  height: 80px;
+}
+
+.pokemon {
+    padding-top: 50px;
+    text-align: center;
+}
+
+  .pokemon-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    width: 20%;
+    border-radius: 10px;
+
+  }
+  
+  .pokemon-container:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .pokemon-superior {
+    height: auto;
+    background-color: lightgrey;
+    text-align: center;
+  }
+  
+  .pokemon-inferior {
+    height: 100%;
+    overflow: hidden;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .types-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .type-plant {
+    background-color: #4CAF50;
+    color: #000000;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+  
+  .type-poison {
+    background-color: #9e4caf;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+
+  .type-fire {
+    background-color: #d66016;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+  .type-bug {
+    background-color: #196824;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+  .type-normal {
+    background-color: #a3a3a3;
+    color: #000000;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+  .type-elec {
+    background-color: yellow;
+    color: #000000;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+  .type-fairy {
+    background-color: rgb(255, 169, 239);
+    color: #000000;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+
+
+  
+  h4 {
+    
+  }
+  
+  
